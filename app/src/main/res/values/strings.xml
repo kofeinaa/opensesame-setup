@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">OpenSesame Setup</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Menu-->
+    <string name="header_download_runtime">OpenSesame Runtime</string>
+    <string name="header_set_server">Server Configuration</string>
+    <string name="header_check_updates">Experiments\' updates</string>
+    <string name="header_choose_experiment">Choose experiment</string>
+    <string name="header_new_experiment">New experiment</string>
+    <string name="header_share_results">Share results</string>
+
+    <string name="desc_download_runtime">Download OpenSesame runtime for Android</string>
+    <string name="desc_set_server">Set correct server address to fetch experiments data and share your results</string>
+    <string name="desc_check_updates">Check for new available experiments on the server</string>
+    <string name="desc_choose_experiment">Select experiment type from available options</string>
+    <string name="desc_new_experiment">Start previously selected experiment</string>
+    <string name="desc_share_results">Send your results to the server</string>
+
+
+    <string name="opensesame_package_name">nl.cogsci.opensesame</string>
+
+    <!--Warning-->
+    <string name="warning_download_runtime">You need to download OpenSesame Runtime first.</string>
+    <string name="warning_grant_permission">You need to grant permission to OpenSesame Setup application.</string>
+
+    <!--Server dialog-->
+    <string name="title_server_address">Server address</string>
+    <string name="server_address">http://sapphire.memleak.pl:5000/</string>
+
+    <string name="autorun_file">/sdcard/opensesame-autorun.yml</string>
+    <string name="exp_dir_path">/sdcard/experiments/</string>
+
+    <string name="exp_dir_path_relative">experiments/</string>
+    <string name="results_dir_path_relative">results/</string>
+
+    <string name="result_dir_path">/sdcard/results/</string>
+    <string name="results_filename">subject01.csv</string>
+
+    <string name="endpoint_exp">exp/</string>
+    <string name="endpoint_results">results/</string>
+
+    <string name="data_download">Data download</string>\
+    <string name="download_complete">Download complete</string>
+    <string name="new_files">New files: </string>
+    <string name="results_sent">Results sent!</string>
+    <string name="description">Description:</string>
+
+    <string name="extension">.osexp</string>
+    <string name="select_experiment">Select experiment</string>
+</resources>
