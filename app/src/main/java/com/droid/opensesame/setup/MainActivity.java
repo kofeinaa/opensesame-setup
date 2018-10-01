@@ -267,6 +267,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
 
+        request.setShouldCache(false);
         queue.add(request);
     }
 
@@ -394,6 +395,7 @@ public class MainActivity extends AppCompatActivity {
                 });
 
         request.addFile("file", resultsFile);
+        request.setShouldCache(false);
         queue.add(request);
     }
 
